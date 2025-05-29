@@ -1,0 +1,19 @@
+.cancelStyle {
+  color: #ccc;
+  border: 1px solid #eee;
+
+  background-color: white;
+  padding: 10px 40px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.saveStyle {
+  padding: 10px 40px;
+  background: linear-gradient(to right, #67d1fb, #7c70f9);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(124, 112, 249, 0.3);
+  cursor: pointer;
+}

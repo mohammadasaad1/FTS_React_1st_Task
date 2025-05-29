@@ -1,25 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import { FilterUsersTable } from "./Components/FilterUsersTable/FilterUsersTable";
+import "./styles.css";
+import users from "./data.js";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <h5>Add members to Front-end development team</h5>
+      <FilterUsersTable users={users} />
     </div>
   );
 }
-
 export default App;
